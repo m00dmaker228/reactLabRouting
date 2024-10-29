@@ -1,8 +1,21 @@
-# React + Vite
+# Redirect Popup React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React application that demonstrates a component (`RedirectPopup`) which prompts users with a confirmation dialog before they leave the page or navigate away from a specified link.
 
-Currently, two official plugins are available:
+![Redirect Popup Screenshot](./public/image.png) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **BeforeUnload Event**: The application uses the `beforeunload` event to warn users if they attempt to refresh or close the tab.
+- **Link Confirmation**: A confirmation dialog appears when users click on the link to leave the site.
+
+## Technologies Used
+
+- React
+- JavaScript (ES6)
+- CSS
+
+## Usage
+
+To use this application, simply run it in your local development environment. The `RedirectPopup` component will handle user prompts for navigation and page unloading.
+
