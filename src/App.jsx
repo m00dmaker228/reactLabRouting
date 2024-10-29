@@ -1,12 +1,11 @@
 import './App.css'
+import RedirectPopup from './component/RedirectPopup'
 
-function App() {
-
+export default function App() {
   return (
     <>
      <p>Hello world</p>
+     <RedirectPopup/>
     </>
   )
 }
-
-export default App
